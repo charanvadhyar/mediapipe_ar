@@ -68,6 +68,7 @@ const camera = new Camera(videoElement, {
   },
   width: 480, // Optimized resolution for mobile
   height: 360,
+  facingMode: "environment", 
 });
 
 // Adjust canvas size dynamically to match video feed
